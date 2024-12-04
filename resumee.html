@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моє Резюме</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        img {
+            display: block;
+            margin: 15px auto;
+            border-radius: 4%;
+            width: 300px;
+           height: 300px;
+        }
+        .sidebar {
+            background-color: #f8d7da;
+            padding: 20px;
+            width: 300px;
+            height: 2000px;
+        }
+        .main-content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .contact-info, .skills, .soft-skills {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .skills, .soft-skills{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .skills, .soft-skills {
+            margin-bottom: 5px;
+        }
+        .projects, .experience, .education {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+       <img src="img/fotoo.jpg"> 
+        <div class="contact-info">
+            <h2>Контакти:</h2>
+            <p>C: +380 63 504 34 79</p>
+            <p>E: ivan,vyhrestt@gmail.com</p>
+        </div>
+        <div class="skills">
+            <h2>Tech skills</h2>
+            <b>UI/UX дизайн</b>
+        </div>
+        <div class="soft-skills">
+            <h2>Soft skills</h2>
+            <b>Communication</b>
+            <p>control of your emotions</p>
+            
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>Студент СТФК НУХТ групи КН23</h1>
+        <h2>Вихрест Іван</h2>
+        <p>Народився 27 березня .<br>Навчався в ЗОШ№13, а потім вступив в коледж"СТФК НУХТ".<br> На данний момент навчаюсь в СТФК НУХТ і в майбутньому планую стати програмістом та поїхати в Київ як проходив курси UI/UX дизайн дуже сподобалося планую і на далі цим займатися </p>
+        
+       
+        
+        <div class="experience">
+            <h2>Курси які я проходив:</h2>
+            <ul>
+                <li>Проходив курс по UI/UX дизайну від GOIT</li>
+                <li>Проходив курс по програмуванні HTML від GOIT</li>
+            </ul>
+        </div>
+        
+        <div class="education">
+            <h2>Освіта</h2>
+            <h3>Смілянський технологічний фаховий коледж</h3>
+            <p>Фаховий молодший бакалавр з комп'ютерних наук</p>
+            <p>вересень 2023 - червень 2027 | Україна</p>
+        </div>
+    </div>
+</body>
+</html>
